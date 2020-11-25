@@ -23,6 +23,6 @@ pred = loaded_model.predict(user_input)
 
 
 st.title(" ")
-st.header(f"PREDICTED TEST SCORE IS  ---  {round(pred[0], 2)}")
+st.header(f"PREDICTED TEST SCORE IS  --->  {round(pred[0], 2)}")
 # st.header(round(pred[0], 2))
 
